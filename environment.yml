@@ -1,0 +1,14 @@
+# conda env create --file environment.yml
+name: numpy_pandas_da
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - seaborn
+  - pandas
+  - numpy
+  - matplotlib
+  - pip
+  - python=3.7
+  
