@@ -1,5 +1,5 @@
 # conda env create --file environment.yml
-name: numpy_pandas_da
+name: python_for_data_science
 channels:
   - anaconda
   - conda-forge

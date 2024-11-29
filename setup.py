@@ -18,10 +18,10 @@ def readme() -> str:
     return open(os.path.join(os.path.dirname(__file__), 'README.md')).read()
 
 setup(
-    name='eda_penguins',
+    name='python_for_data_science',
     version='1.0',
     author='pahoalapizco',
-    description='Exploratory Data Analysis of palmer penguins data set, this project is part of the course "Análisis exploratorio de datos" by Platzi.',
+    description='Notes, examples, exercises and project from the course "Python para Ciencia de Datos" by Platzi.',
     python_requires='>=3',
     license='',
     url='',
